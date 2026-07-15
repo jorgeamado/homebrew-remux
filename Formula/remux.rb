@@ -16,20 +16,20 @@ class Remux < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jorgeamado/remux/releases/download/v0.2.0/remux-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "153491facf3372b32566f1e8fdb3e7c58f69d1eb15419b62b0878e74e34ffa0f"
+      sha256 "f3aa66be205d7cb1a952145ff29cd8260421a049fb3c58157b921a19b4f982e8"
     else
       url "https://github.com/jorgeamado/remux/releases/download/v0.2.0/remux-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "cc47ba43154fd2e600cce621769a1759c3c66c35c1f21e25f42837046f59c41b"
+      sha256 "ba43a67699ac71881745978e4a886b80ef50573f1962761f0ebc9c3306d0385d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/jorgeamado/remux/releases/download/v0.2.0/remux-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b768d27056262e598c6939e635aa0e497073fc293728d8f31e98701cc501923d"
+      sha256 "561fbc78e9b6c9580606b96f67559ed5caa42149b1f36d118c4e3e275dd7318b"
     else
       url "https://github.com/jorgeamado/remux/releases/download/v0.2.0/remux-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3bc54887078e901931ee0e04f0265a7e9f9d411fb0e04a17db4382901adce09d"
+      sha256 "1eefa5cbc8bac8e9ccb9ec9f7482c73e165fe2ecaa7c3456a9e523de2112891a"
     end
   end
 
